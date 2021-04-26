@@ -1,0 +1,19 @@
+AsterRisk, an ncurses shooting game
+By Raymond Gillies
+
+HOW TO PLAY:
+(NOTE: This game uses ncurses, a Linux-only library. Therefore, these instructions are Linux-only)
+1. Place the AsterRisk folder in the desired directory
+2. Navigate to the AsterRisk folder using the following command 
+(replace <AsterRisk directory> with the directory you placed the folder in):
+cd <AsterRisk directory>/AsterRisk
+3. Run the game by opening the a.out file:
+./a.out
+OR if a.out does not exist, compile the code using the following command:
+g++ *.cpp ./implementation/*.cpp ./implementation/Units/*.cpp -pthread -lncurses -O3
+AND if necessary, set the permissons for a.out so you can execute it:
+chmod 700 a.out
+Then run the file as described at step 3.
+
+The instructions to play the game are shown before the game starts.
+Have fun!
